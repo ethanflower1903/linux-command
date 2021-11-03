@@ -1,0 +1,52 @@
+Linux 
+
+find
+Geniş bir kullanımı olan arama komutudur.
+find <arama_yeri> -name <aranan>
+Aramayı büyük küçük harfe duyarsız olarak yapmak için iname parametresi kullanılır.
+find <arama_yeri> -iname <aranan>
+Aranacak dosya veya dizinin tam adı bilinmiyorsa yıldız (*) karakteri kullanılabilir.
+find <arama_yeri> -name <ara*>
+Örneğin; Uzantısı .txt olan dosyaları bulmak için aşağıdaki komut kullanılabilir.
+find <arama_yeri> -name <*.txt>
+Aramada bulunan dosya ve dizinleri seçmek için type parametresi kullanılır.
+Parametre d alırsa dizin, f alırsa dosyaları listeler.
+find -type d <aranan>
+Aranan ifadenin boyutunu belirtmek için size parametresi kullanılır.
+find <arama_yeri> -name <aranan> -size +10k
+Dosyanın tarihiyle ilgili arama yapmak için amin, mmin, cmin vb. parametreler kullanılabilir.
+find <arama_yeri> -name <aranan> -mmin +10
+Zaman ifadelerinin önündeki işaret artı (+) ise belirtilen zamandan fazla, eksi (–) ise belirtilen zamandan az herhangi bir ifade yoksa tam zaman verilmiş olur.
+Boş dosya veya dizinleri bulmak için empty parametresi kullanılır.
+find <arama_yeri> -name <aranan> -empty
+Boş dosya veya dizinleri bulmak için empty parametresi kullanılır.
+Dizin haklarını bulmak için perm parametresi kullanılır.
+find <arama_yeri> -name <aranan> -perm 777
+Bulunan ifadeler için komut çalıştırmak için exec parametresi kullanılır.
+find <arama_yeri> -name <aranan> -exec <komut>
+Örneğin; Bulunan ifadeleri silmek için aşağıdaki komut kullanılabilir.
+find <arama_yeri> -name <aranan> -exec rm -rf {} \;
+Aranacak dizin adımını belirtmek için maxdepth parametresi kullanılır.
+find <arama_yeri> -name <aranan> -maxdepth X
+Örneğin; Aranan .conf uzantılı dosyanın sadece aranan dizinde bulunması için aşağıdaki komut kullanılabilir.
+find /etc *.conf -maxdepth 1
+Komut ihtiyaçlara göre farklı parametrelerle birlikte kullanılarak sonuç alınabilir.
+whereis ve which
+Çalıştırılabilir dosyaların konumunu bulmak için kullanılır.
+whereis <komut>
+whereis cd
+which <komut>
+which cd
+grep
+Arama yapmak için kullanılır.
+grep <aranan> <dosya>
+Aramayı büyük küçük harfe duyarsız olarak yapmak için i parametresi kullanılır.
+grep -i <aranan> <dosya>
+Aramayı dizin altındaki tüm dosya ve dizinlerde yapmak için r parametresi kullanılır.
+grep -r <aranan> <dizin>
+Arama sırasında başlangıç (^) ve bitiş ($) karakterleri ile arama yapılabilir.
+grep -ir '^Merhaba' dosya.txt 
+Arama ile dosya.txt içerisinde Merhaba ile başlayan yer bulunacaktır.
+Komut çoğunlukla ardışık komutlarda komut çıktısında arama yapmak için kullanılır.
+ls -lah | grep '^d' 
+Benzer şekilde diğer komutlarla birlikte de kullanılabilir.
