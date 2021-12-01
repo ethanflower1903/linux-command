@@ -1,0 +1,5 @@
+gzip filename
+gzip -c filename > filename.gz
+gzip -k filename
+gzip -1 filename
+gzip filename1 filename2
