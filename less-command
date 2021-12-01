@@ -1,0 +1,14 @@
+Once you are inside a less session, you can quit by pressing q.
+
+You can navigate the file contents using the up and down keys, or using the space bar and b to navigate page by page. You can also jump to the end of the file pressing G and jump back to the start by pressing g.
+
+You can search contents inside the file by pressing / and typing a word to search. This searches forward. You can search backwards using the ? symbol and typing a word.
+
+This command just visualises the file's content. You can directly open an editor by pressing v. It will use the system editor, which in most cases is vim.
+
+Pressing the F key enters follow mode, or watch mode. When the file is changed by someone else, like from another program, you get to see the changes live.
+
+This doesn't happen by default, and you only see the file version at the time you opened it. You need to press ctrl-C to quit this mode. In this case the behaviour is similar to running the tail -f <filename> command.
+
+You can open multiple files, and navigate through them using :n (to go to the next file) and :p (to go to the previous).
+
