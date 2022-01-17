@@ -1,0 +1,17 @@
+DEVICE – Ağ kartının adını,
+
+ONBOOT – Ağın açılışta aktif edilme durumunu,
+
+BOOTPROTO – Network ayarlarının nasıl yapılacağını (static, dhcp, bootp),
+
+IPADDR – IP adresini,
+
+NETMASK – Ağ maskesini,
+
+BROADCAST – Broadcast adresini,
+
+GATEWAY – Gateway adresini belirtir.
+
+Ayrıca MAC adresi, Ağ tipi gibi çeşitli ayarlarda bulunmaktadır.
+
+DHCP kullanarak IP alınmak istendiğinde DEVICE, BOOTPROTO ve ONBOOT ayarlarının yazılması yeterli olacaktır.
