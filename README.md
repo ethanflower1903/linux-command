@@ -1,2 +1,2 @@
 # linux notes
-
+#linjx commands
