@@ -1,3 +1,4 @@
+# tar command 
 tar -cf archive.tar file1 file2
 The tar command is used to create an archive, grouping multiple files in a single file.
 
