@@ -1,0 +1,47 @@
+Linux’ta mevcut saat ve tarihi görmek için;
+
+[root@omeroner ~]# date
+1
+[root@omeroner ~]# date
+komutu yazılır. Çıktısı aşağıdakine benzerdir.
+
+Thu May 2 17:12:45 EEST 2012
+1
+Thu May 2 17:12:45 EEST 2012
+Burada tarihin 2 Mayıs 2012 saat 17:12 olduğunu EEsT ise saat diliminin Eastern European Summer Time(Doğu Avrupa Yaz Saati) zone’unda bulunduğu  anlamına gelmektedir.
+
+
+Tarihi saatle birlikte değiştirmek için ise;
+
+#date MMDDhhmmYYYY
+1
+#date MMDDhhmmYYYY
+Örneğin tarihi 15 Ocak 2014 saat 12:15’e almak için;
+
+[root@omeroner ~]# date 011512152014
+Wed Jan 15 12:15:00 EET 2014
+1
+2
+[root@omeroner ~]# date 011512152014
+Wed Jan 15 12:15:00 EET 2014
+Tarihi değiştirmenin başka bir yolu’da;
+
+[root@omeroner ~]# date -s "Thu May 2 17:21:33 EEST 2013"
+Thu May 2 17:21:33 EEST 2013
+1
+2
+[root@omeroner ~]# date -s "Thu May 2 17:21:33 EEST 2013"
+Thu May 2 17:21:33 EEST 2013
+Örnekte, 2 Mayıs 2013 saat 17:21 saniye 33. a aldık.
+
+Yalnızca saati değiştirmek için ise;
+
+[root@omeroner ~]# date +%T -s "11:11:11"
+11:11:11
+1
+2
+[root@omeroner ~]# date +%T -s "11:11:11"
+11:11:11
+date komutu “date +%X” seklinde kullanılır. Format “+%X” şeklindedir. X’in yerine gelebilecek seçenekler aşağıda sıralanmıştır.
+
+02.05
