@@ -43,5 +43,3 @@ Yalnızca saati değiştirmek için ise;
 [root@omeroner ~]# date +%T -s "11:11:11"
 11:11:11
 date komutu “date +%X” seklinde kullanılır. Format “+%X” şeklindedir. X’in yerine gelebilecek seçenekler aşağıda sıralanmıştır.
-
-02.05
