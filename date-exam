@@ -1,0 +1,42 @@
+Örnekler;
+
+[root@omeroner ~]# date
+Thu May 2 17:38:06 EEST 2013
+[root@omeroner ~]# date +%j
+122
+[root@omeroner ~]# date +%D
+05/02/13
+[root@omeroner ~]# date "+%A %B %Y"
+Thursday May 2013
+[root@omeroner ~]# date +%A%D%Y
+Thursday05/02/132013
+[root@omeroner ~]# date "+%j %U %Y"
+122 17 2013
+[root@omeroner ~]# date "+%d %m %y"
+02 05 13
+[root@omeroner ~]# date "+%a %b"
+Thu May
+[root@omeroner ~]# date "+%I:%M %p"
+05:40 PM
+[root@omeroner ~]# date "+%A %B %d %Y"
+Thursday May 02 2013
+[root@omeroner ~]# date
+Thu May 2 17:38:06 EEST 2013
+[root@omeroner ~]# date +%j
+122
+[root@omeroner ~]# date +%D
+05/02/13
+[root@omeroner ~]# date "+%A %B %Y"
+Thursday May 2013
+[root@omeroner ~]# date +%A%D%Y
+Thursday05/02/132013
+[root@omeroner ~]# date "+%j %U %Y"
+122 17 2013
+[root@omeroner ~]# date "+%d %m %y"
+02 05 13
+[root@omeroner ~]# date "+%a %b"
+Thu May
+[root@omeroner ~]# date "+%I:%M %p"
+05:40 PM
+[root@omeroner ~]# date "+%A %B %d %Y"
+Thursday May 02 2013
