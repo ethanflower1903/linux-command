@@ -27,3 +27,4 @@ an empty format results in a locale-specific time representation. The braces are
 \[ : begin a sequence of non-printing characters, which could be used to embed a terminal 
 control sequence into the prompt
 \] : end a sequence of non-printing characters
+# important
