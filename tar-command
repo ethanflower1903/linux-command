@@ -5,4 +5,4 @@ The tar command is used to create an archive, grouping multiple files in a singl
 Its name comes from the past and means tape archive (back when archives were stored on tapes).
 
 This command creates an archive named archive.tar with the content of file1 and file2:
-# new section
+# new section..
