@@ -29,4 +29,4 @@ wget: download files from the internet
 date: show date and time
 cal: show calendar
 !17 run 17th command on history
-#comfortable 
+#comfortable comfort
