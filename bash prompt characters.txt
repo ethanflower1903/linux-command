@@ -1,4 +1,4 @@
-# very important..
+# very important...
 \a : an ASCII bell character (07)
 \d : the date in “Weekday Month Date” format (e.g., “Tue May 26”)
 \D{format} : the format is passed to strftime(3) and the result is inserted into the prompt string; 
