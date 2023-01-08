@@ -15,5 +15,5 @@ GATEWAY – Gateway adresini belirtir.
 Ayrıca MAC adresi, Ağ tipi gibi çeşitli ayarlarda bulunmaktadır.
 
 DHCP kullanarak IP alınmak istendiğinde DEVICE, BOOTPROTO ve ONBOOT ayarlarının yazılması yeterli olacaktır.
-# very important..//
+# very important../
 
