@@ -2,6 +2,6 @@
 #linux commands
 
 
-...mm////
+...mm/
 
 # cssmm....
