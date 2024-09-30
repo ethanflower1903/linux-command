@@ -1,0 +1,20 @@
+> factor - to find factor 
+eg : $factor 15 
+          3
+          5
+     $factor
+       28
+            2
+            2
+            7
+
+Tip: q to quit the program
+
+>expr - compute the given expression 
+
+eg : 
+
+$expr 2 + 5 
+7
+$expr 3\*3
+9
